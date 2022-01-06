@@ -47,3 +47,31 @@ h2{
     text-align: center;
     font-size: 35px;
 }
+.part2-all{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.single-part{
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.resize{
+    height: 100px;
+    width: 100px;
+}
+.single-mission{
+    background-image: linear-gradient(rgba(63, 63, 252, 0.4),rgba(60, 190, 241, 0.4));
+    border-radius: 8px;
+}
+.single-vission{
+    background-image: linear-gradient(rgba(67, 207, 39, 0.4),rgba(124, 214, 21, 0.4));
+    border-radius: 10px;
+}
+.single-goals{
+    background-image: linear-gradient(rgba(221, 185, 24, 0.4),rgba(221, 218, 33, 0.4));
+    border-radius: 8px;
+}
