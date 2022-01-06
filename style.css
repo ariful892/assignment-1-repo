@@ -1,12 +1,14 @@
+body{
+    margin: 0;
+}
 h1{
     font-family: 'Fira Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    
     font-size: 40px;
     padding-left: 10px;
     border-left: rgb(14, 182, 14) solid;
 
 }
-
 .green-color{
     color: rgb(129, 230, 98);
 }
@@ -50,12 +52,12 @@ h2{
     text-align: center;
     font-size: 35px;
 }
-.part2-all{
+.second-all{
     display: flex;
     width: 80%;
     margin: 0 auto;
 }
-.single-part{
+.second-single{
     width: 30%;
     margin-left: 20px;
     margin-right: 20px;
@@ -66,29 +68,40 @@ h2{
     height: 100px;
     width: 100px;
 }
-.single-mission{
+.second-mission{
     background-image: linear-gradient(rgba(63, 63, 252, 0.4),rgba(60, 190, 241, 0.4));
     border-radius: 8px;
 }
-.single-vission{
+.second-vission{
     background-image: linear-gradient(rgba(67, 207, 39, 0.4),rgba(124, 214, 21, 0.4));
     border-radius: 10px;
 }
-.single-goals{
+.second-goals{
     background-image: linear-gradient(rgba(221, 185, 24, 0.4),rgba(221, 218, 33, 0.4));
     border-radius: 8px;
 }
 
 .third-area{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px;
+}
+.area-design{
     display: flex;
     margin-top: 70px;
+    
+    
 }
 .third-h2{
     text-align: left;
 }
 .third-image{
-    height: 300px;
+    height: 280px;
     width: 300px;
+}
+.paragraph{
+    margin-bottom: 30px;
 }
 .first-third{
     width: 40%;
@@ -98,3 +111,56 @@ h2{
     width: 60%;
     margin-right: 155px;
 }
+
+.fourth-area{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
+}
+
+.first-fourth{
+    width: 60%;
+    margin-left: 150px;
+}
+.second-fourth{
+    width: 40%;
+    margin-right: 155px;
+    text-align: right;
+}
+
+.fifth-area{
+    display: flex;
+    width: 70%;
+    margin: 50px auto;
+    background-color: rgba(108, 128, 240, 0.5);
+    border-radius: 10px;
+}
+.fifth-division h3{
+    text-align: left;
+    margin-left: 20px;
+}
+.fifth-division{
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.fifth-division a{
+    text-decoration: none;
+    color: black;
+}
+
+.foot{
+    text-align: center;
+    background-color: rgb(21, 21, 73);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+.foot-h3{
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
+
