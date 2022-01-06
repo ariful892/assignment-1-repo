@@ -10,7 +10,7 @@ h1{
 .green-color{
     color: rgb(129, 230, 98);
 }
-4{
+.top-h1{
     display: block;
 }
 
@@ -20,7 +20,7 @@ h1{
 }
 .half-area{
     width: 50%;
-    margin-left: 90px;
+    margin-left: 150px;
     margin-right: 60px;
 }
 .top-p{
@@ -77,4 +77,24 @@ h2{
 .single-goals{
     background-image: linear-gradient(rgba(221, 185, 24, 0.4),rgba(221, 218, 33, 0.4));
     border-radius: 8px;
+}
+
+.third-area{
+    display: flex;
+    margin-top: 70px;
+}
+.third-h2{
+    text-align: left;
+}
+.third-image{
+    height: 300px;
+    width: 300px;
+}
+.first-third{
+    width: 40%;
+    margin-left: 150px;
+}
+.second-third{
+    width: 60%;
+    margin-right: 155px;
 }
